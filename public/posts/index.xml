@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Neel Patil</title>
-    <link>/posts/</link>
+    <link>//localhost:1313/posts/</link>
     <description>Recent content in Posts on Neel Patil</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Jan 2025 14:53:09 -0500</lastBuildDate>
-    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Still Figuring Things Out</title>
-      <link>/posts/my-first-post/</link>
+      <link>//localhost:1313/posts/my-first-post/</link>
       <pubDate>Mon, 27 Jan 2025 14:53:09 -0500</pubDate>
-      <guid>/posts/my-first-post/</guid>
+      <guid>//localhost:1313/posts/my-first-post/</guid>
       <description>&lt;p&gt;Not sure what I&amp;rsquo;ll be posting on this site but we&amp;rsquo;ll figure it out as we go. Thanks for visiting!&lt;/p&gt;</description>
     </item>
   </channel>
