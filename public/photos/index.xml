@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Photos on Neel Patil</title>
-    <link>http://localhost:1313/photos/</link>
+    <link>https://neelpatil.com/photos/</link>
     <description>Recent content in Photos on Neel Patil</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Jan 2025 16:15:25 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/photos/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://neelpatil.com/photos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>City Park</title>
-      <link>http://localhost:1313/photos/budapest2/</link>
+      <link>https://neelpatil.com/photos/budapest2/</link>
       <pubDate>Mon, 27 Jan 2025 16:15:25 -0500</pubDate>
-      <guid>http://localhost:1313/photos/budapest2/</guid>
+      <guid>https://neelpatil.com/photos/budapest2/</guid>
       <description></description>
     </item>
     <item>
       <title>Balloon of Budapest</title>
-      <link>http://localhost:1313/photos/budapest1/</link>
+      <link>https://neelpatil.com/photos/budapest1/</link>
       <pubDate>Mon, 27 Jan 2025 15:24:06 -0500</pubDate>
-      <guid>http://localhost:1313/photos/budapest1/</guid>
+      <guid>https://neelpatil.com/photos/budapest1/</guid>
       <description></description>
     </item>
   </channel>
