@@ -6,14 +6,28 @@
     <description>Recent content on Neel Patil</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jan 2025 17:14:09 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jan 2025 15:24:06 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
+      <title>Europe Film Pictures</title>
+      <link>http://localhost:1313/photos/eurofilm/</link>
+      <pubDate>Mon, 27 Jan 2025 15:24:06 -0500</pubDate>
+      <guid>http://localhost:1313/photos/eurofilm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Still Figuring Things Out</title>
       <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Thu, 23 Jan 2025 17:14:09 -0500</pubDate>
+      <pubDate>Mon, 27 Jan 2025 14:53:09 -0500</pubDate>
       <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Not sure what I&amp;rsquo;ll be posting on this site but we&amp;rsquo;ll figure it out as we go. Thanks for visiting!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 27 Jan 2025 14:39:12 -0500</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Born in India, raised in Atlanta, and moving to NYC. NYU MBA Candidate for the class of 2027.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://github.com/neelpatil77/personalsite/blob/main/images/Me.png?raw=true&#34; alt=&#34;Console&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

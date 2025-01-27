@@ -4,22 +4,43 @@
     
         
         <url>
-            <loc>http://localhost:1313/posts/my-first-post/</loc>
-            <lastmod>2025-01-23T17:14:09-05:00</lastmod>
+            <loc>http://localhost:1313/photos/eurofilm/</loc>
+            <lastmod>2025-01-27T15:24:06-05:00</lastmod>
         </url>
         
     
         
         <url>
             <loc>http://localhost:1313/</loc>
-            <lastmod>2025-01-23T17:14:09-05:00</lastmod>
+            <lastmod>2025-01-27T15:24:06-05:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/photos/</loc>
+            <lastmod>2025-01-27T15:19:08-05:00</lastmod>
         </url>
         
     
         
         <url>
             <loc>http://localhost:1313/posts/</loc>
-            <lastmod>2025-01-23T17:14:09-05:00</lastmod>
+            <lastmod>2025-01-27T14:53:09-05:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/posts/my-first-post/</loc>
+            <lastmod>2025-01-27T14:53:09-05:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>http://localhost:1313/about/</loc>
+            <lastmod>2025-01-27T14:39:12-05:00</lastmod>
         </url>
         
     

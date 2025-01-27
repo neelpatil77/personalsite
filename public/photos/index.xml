@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Photos on Neel Patil</title>
+    <link>http://localhost:1313/photos/</link>
+    <description>Recent content in Photos on Neel Patil</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Jan 2025 15:24:06 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/photos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Europe Film Pictures</title>
+      <link>http://localhost:1313/photos/eurofilm/</link>
+      <pubDate>Mon, 27 Jan 2025 15:24:06 -0500</pubDate>
+      <guid>http://localhost:1313/photos/eurofilm/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
