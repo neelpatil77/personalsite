@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Neel Patil</title>
-    <link>https://neelpatil.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Neel Patil</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Jan 2025 16:15:25 -0500</lastBuildDate>
-    <atom:link href="https://neelpatil.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>City Park</title>
-      <link>https://neelpatil.com/photos/budapest2/</link>
+      <link>http://localhost:1313/photos/budapest2/</link>
       <pubDate>Mon, 27 Jan 2025 16:15:25 -0500</pubDate>
-      <guid>https://neelpatil.com/photos/budapest2/</guid>
+      <guid>http://localhost:1313/photos/budapest2/</guid>
       <description></description>
     </item>
     <item>
       <title>Balloon of Budapest</title>
-      <link>https://neelpatil.com/photos/budapest1/</link>
+      <link>http://localhost:1313/photos/budapest1/</link>
       <pubDate>Mon, 27 Jan 2025 15:24:06 -0500</pubDate>
-      <guid>https://neelpatil.com/photos/budapest1/</guid>
+      <guid>http://localhost:1313/photos/budapest1/</guid>
       <description></description>
     </item>
     <item>
       <title>Still Figuring Things Out</title>
-      <link>https://neelpatil.com/posts/my-first-post/</link>
+      <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Mon, 27 Jan 2025 14:53:09 -0500</pubDate>
-      <guid>https://neelpatil.com/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description>&lt;p&gt;Not sure what I&amp;rsquo;ll be posting on this site but we&amp;rsquo;ll figure it out as we go. Thanks for visiting!&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>https://neelpatil.com/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 27 Jan 2025 14:39:12 -0500</pubDate>
-      <guid>https://neelpatil.com/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;p&gt;Born in India, raised in Atlanta, and moving to NYC. NYU MBA Candidate for the class of 2027.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://github.com/neelpatil77/personalsite/blob/main/images/Me.png?raw=true&#34; alt=&#34;Console&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
