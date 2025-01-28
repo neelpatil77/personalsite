@@ -4,6 +4,6 @@ draft = false
 title = 'About Me'
 +++
 
-Born in India, raised in Atlanta, and moving to NYC. NYU MBA Candidate for the class of 2027. 
+I'm from Atlanta, GA and I enjoy watching football, reading, and running. I like taking film photos which you can find in the photos section of this site as well. 
 
 ![Console](https://github.com/neelpatil77/personalsite/blob/main/images/Me.png?raw=true)
