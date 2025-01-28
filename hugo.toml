@@ -1,4 +1,4 @@
-
+baseURL = 'https://www.neelpatil.com
 languageCode = 'en-us'
 title = 'Neel Patil'
 theme = 'hugo-theme-console'
