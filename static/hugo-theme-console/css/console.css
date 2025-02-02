@@ -201,6 +201,7 @@ figure {
 }
 
 .image-grid {
+
     display: grid;
     grid-template-rows: auto;
     display: grid;
@@ -210,7 +211,15 @@ figure {
         auto-fit,
         minmax(calc(var(--page-width) / 4), 1fr)
     );
+
+    
 }
+
+.image-grid .img-responsive {
+    width: 100%;
+    height: 100%;
+}
+
 
 .terminal-prompt::after {
     -webkit-animation: cursor 1s infinite;
