@@ -217,7 +217,10 @@ figure {
 
 .image-grid .img-responsive {
     width: 100%;
-    height: 100%;
+    height: 300px;
+    object-fit: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 
