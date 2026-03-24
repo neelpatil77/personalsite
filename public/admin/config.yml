@@ -20,16 +20,18 @@ collections:
       - { label: Draft, name: draft, widget: boolean, default: false }
       - { label: Body, name: body, widget: markdown }
 
-  - name: photos
+- name: photos
     label: Photos
     folder: content/photos
     create: true
     slug: "{{slug}}"
+    media_folder: ""        # store images in the same folder as index.md
+    public_folder: ""       # reference them relatively
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Date, name: date, widget: datetime }
       - { label: Draft, name: draft, widget: boolean, default: false }
-      - { label: Image, name: image, widget: image, required: false }
+      - { label: Images, name: images, widget: list, field: {label: Image, name: image, widget: image} }
       - { label: Body, name: body, widget: markdown }
 
   - name: career
