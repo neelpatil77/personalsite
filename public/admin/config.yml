@@ -26,9 +26,9 @@ collections:
     label: Photos
     folder: content/photos
     create: true
-    slug: "{{slug}}"
-    media_folder: ""
-    public_folder: ""
+    path: "{{slug}}/index"
+    media_folder: "{{media_folder}}/content/photos/{{dirname}}"
+    public_folder: "{{public_folder}}/content/photos/{{dirname}}"
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Date, name: date, widget: datetime }
