@@ -8,6 +8,8 @@ backend:
 media_folder: static/images
 public_folder: /images
 
+output_format: toml
+
 collections:
   - name: posts
     label: Posts
@@ -25,14 +27,14 @@ collections:
     folder: content/photos
     create: true
     slug: "{{slug}}"
-    media_folder: ""        # store images in the same folder as index.md
-    public_folder: ""       # reference them relatively
+    media_folder: ""
+    public_folder: ""
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Date, name: date, widget: datetime }
       - { label: Draft, name: draft, widget: boolean, default: false }
-      - { label: Images, name: images, widget: list, field: {label: Image, name: image, widget: image} }
-      - { label: Body, name: body, widget: markdown }
+      - { label: Cover Image, name: image, widget: image }
+      - { label: Type, name: type, widget: hidden, default: gallery }
 
   - name: career
     label: Career
