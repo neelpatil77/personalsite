@@ -4,13 +4,18 @@
 <div class="image-grid">
     {{ range sort .Data.Pages "Date" "desc" }}
         {{ if and (isset .Params "image") .Params.image }}
-            {{ $page := . }}
             {{ $imageName := .Params.image }}
+            DEBUG: looking for {{ $imageName }} in {{ .Title }}<br>
             <a href="{{ .Permalink }}" title="{{ .Title }}">
             {{ with .Resources.GetMatch $imageName }}
+                DEBUG: found image {{ .RelPermalink }}<br>
                 {{ $oriented := .Filter images.AutoOrient }}
+                DEBUG: oriented {{ $oriented.RelPermalink }}<br>
                 {{ $thumb := $oriented.Resize "400x" }}
-                <img src="{{ $thumb.RelPermalink }}" alt="{{ $page.Title }}" class="img-responsive">
+                DEBUG: thumb {{ $thumb.RelPermalink }}<br>
+                <img src="{{ $thumb.RelPermalink }}" alt="" class="img-responsive">
+            {{ else }}
+                DEBUG: image NOT found as resource<br>
             {{ end }}
             </a>
         {{ end }}
