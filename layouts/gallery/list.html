@@ -4,13 +4,14 @@
 <div class="image-grid">
     {{ range sort .Data.Pages "Date" "desc" }}
         {{ if and (isset .Params "image") .Params.image }}
+            {{ $page := . }}
+            {{ $imageName := .Params.image }}
             <a href="{{ .Permalink }}" title="{{ .Title }}">
-            {{ $image := .Page.Resources.GetMatch .Params.image }}
-            {{ with $image }}
+            {{ with .Resources.GetMatch $imageName }}
                 {{ $oriented := .Filter images.AutoOrient }}
                 {{ $thumb := $oriented.Resize "400x" }}
-                <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" class="img-responsive">
-            {{end}}
+                <img src="{{ $thumb.RelPermalink }}" alt="{{ $page.Title }}" class="img-responsive">
+            {{ end }}
             </a>
         {{ end }}
     {{ end }}
