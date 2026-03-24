@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: neelpatil/neelpatil.com
+  repo: neelpatil77/personalsite
   branch: main
   base_url: https://www.neelpatil.com
   auth_endpoint: /api/auth
