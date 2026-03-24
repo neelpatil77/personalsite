@@ -4,19 +4,13 @@
 {{ if and (isset .Params "image") .Params.image }}
     {{ $image := .Page.Resources.GetMatch .Params.image }}
     {{ with $image }}
-        DEBUG: found image {{ .RelPermalink }}<br>
         {{ $oriented := .Filter images.AutoOrient }}
-        DEBUG: oriented {{ $oriented.RelPermalink }}<br>
         {{ $thumb := $oriented.Resize "1000x" }}
-        DEBUG: thumb {{ $thumb.RelPermalink }}<br>
         {{ printf `<img src="%s" alt="%s" class="img-responsive gallery-image">` $thumb.RelPermalink .Title | safeHTML }}
-    {{ else }}
-        DEBUG: image not found as page resource
     {{end}}
-{{ else }}
-    DEBUG: image param missing or empty
 {{ end }}
 
 {{ .Content }}
+{{ template "_internal/disqus.html" . }}
 
 {{ end }}
