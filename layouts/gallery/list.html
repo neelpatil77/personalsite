@@ -8,7 +8,7 @@
             <a href="{{ .Permalink }}" title="{{ .Title }}">
             {{ with .Resources.GetMatch $imageName }}
                 {{ $oriented := .Filter images.AutoOrient }}
-                {{ $thumb := $oriented.Resize "400x" }}
+                {{ $thumb := $oriented.Resize "800x" }}
                 <img src="{{ $thumb.RelPermalink }}" alt="" class="img-responsive">
             {{ end }}
             </a>
